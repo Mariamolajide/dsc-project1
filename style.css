@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {}
+
+main {
+    display: flex;
+    border: 2px solid red;
+    width: 80%;
+    height: 80vh;
+    /* flex-basis: 50%; */
+}
+
+.one {
+    flex-basis: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.two {
+    flex-basis: 50%;
+    margin-left: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.one  p {
+    text-align: center;
+    line-height: 2.8;
+}
+.one  img {
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+.one:hover img {
+    display: block  ;
+}
+
+.box_price {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+h4{
+    /* m */
+}
+/* </figure>
+
+input {
+    padding: 10px;
+    border: none;
+    outline: 0;
+    background-color: unset;
+    border-bottom: 2px solid gray;
+    margin-bottom: 4px;
+}
+
+.flex-form {
+    display: flex;
+}
+
+.flex-form input {
+    margin-right: 5px;
+}
